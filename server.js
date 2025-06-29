@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/',(req,res)=>{
-    res.json({mssg: 'Welcome to the Newly created app'})
+    res.json({mssg: 'Welcome to the Newly created Express Server app'})
 })
 
 
